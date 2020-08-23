@@ -6,7 +6,7 @@ import stopwatch from './stopwatch.svg'
 
 const WhyUs = () => {
   return (
-    <div className='p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-gray-900 text-white'>
+    <div className='p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-secondary text-white'>
       <div className='flex flex-col items-center text-center p-4 mb-6'>
         <div className='border rounded-lg h-48'>
           <img src={badge} className='object-scale-down h-full w-full' alt='badge' />

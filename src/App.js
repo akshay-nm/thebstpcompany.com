@@ -7,7 +7,7 @@ import ContactUs from './components/contact-us/ContactUs';
 
 function App() {
   return (
-    <div className='w-full h-full flex flex-col'>
+    <div className='w-full h-full flex flex-col bg-primary font-body'>
       <Navigation />
       <Home />
       <WhyUs />
