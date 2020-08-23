@@ -1,4 +1,8 @@
 import React from 'react';
+import smCat from './sm-cat.svg'
+import mdCat from './md-cat.svg'
+import lgCat from './lg-cat.svg'
+
 
 const Pricing = () => {
   return (
@@ -7,7 +11,9 @@ const Pricing = () => {
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 p-5'>
         <div className='flex items-center justify-center'>
           <div className='flex flex-col bg-gray-900 rounded-lg p-1 w-full max-w-xs'>
-            <div className='py-16'></div>
+            <div className='h-32'>
+              <img src={smCat} className='object-scale-down h-full w-full'/>
+            </div>
             <div className='text-center rounded-lg bg-white p-4'>
               <div className='text-2xl'>Small</div>
               <div>Articles per Month - 4</div>
@@ -25,7 +31,9 @@ const Pricing = () => {
         
         <div className='flex items-center justify-center'>
           <div className='flex flex-col bg-gray-900 rounded-lg p-1 w-full max-w-xs'>
-            <div className='py-16'></div>
+            <div className='h-32'>
+              <img src={mdCat} className='object-scale-down h-full w-full'/>
+            </div>
             <div className='text-center rounded-lg bg-white p-4'>
               <div className='text-2xl'>Medium</div>
               <div>Articles per Month - 4</div>
@@ -42,7 +50,9 @@ const Pricing = () => {
         </div>
         <div className='flex items-center justify-center'>
           <div className='flex flex-col bg-gray-900 rounded-lg p-1 w-full max-w-xs'>
-            <div className='py-16'></div>
+            <div className='h-32'>
+              <img src={lgCat} className='object-scale-down h-full w-full'/>
+            </div>
             <div className='text-center rounded-lg bg-white p-4'>
               <div className='text-2xl'>Large</div>
               <div>Articles per Month - 4</div>
