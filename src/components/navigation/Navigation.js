@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <nav className='w-full flex items-center justify-between p-10'>
       <div>
-        <div>Logo</div>
+        <div className='text-3xl tracking-wider'>The BSTP Company</div>
         <div className={`block ${expanded? '' : 'hidden'} sm:hidden`}>
           <div>Why Us</div>
           <div>Pricing</div>
