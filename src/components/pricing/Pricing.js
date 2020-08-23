@@ -12,7 +12,7 @@ const Pricing = () => {
         <div className='flex items-center justify-center'>
           <div className='flex flex-col bg-gray-900 rounded-lg p-1 w-full max-w-xs'>
             <div className='h-32'>
-              <img src={smCat} className='object-scale-down h-full w-full'/>
+              <img src={smCat} className='object-scale-down h-full w-full' alt='cat' />
             </div>
             <div className='text-center rounded-lg bg-white p-4'>
               <div className='text-2xl'>Small</div>
@@ -32,7 +32,7 @@ const Pricing = () => {
         <div className='flex items-center justify-center'>
           <div className='flex flex-col bg-gray-900 rounded-lg p-1 w-full max-w-xs'>
             <div className='h-32'>
-              <img src={mdCat} className='object-scale-down h-full w-full'/>
+              <img src={mdCat} className='object-scale-down h-full w-full' alt='cats' />
             </div>
             <div className='text-center rounded-lg bg-white p-4'>
               <div className='text-2xl'>Medium</div>
@@ -51,7 +51,7 @@ const Pricing = () => {
         <div className='flex items-center justify-center'>
           <div className='flex flex-col bg-gray-900 rounded-lg p-1 w-full max-w-xs'>
             <div className='h-32'>
-              <img src={lgCat} className='object-scale-down h-full w-full'/>
+              <img src={lgCat} className='object-scale-down h-full w-full' alt='too many cats' />
             </div>
             <div className='text-center rounded-lg bg-white p-4'>
               <div className='text-2xl'>Large</div>

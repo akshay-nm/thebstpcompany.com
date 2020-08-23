@@ -14,7 +14,7 @@
 # misc
 /.firebase
 .DS_Store
-/src/components/firebase/config.js
+.env
 .env.local
 .env.development.local
 .env.test.local

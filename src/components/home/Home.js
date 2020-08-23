@@ -9,7 +9,7 @@ const Home = () => {
       <div className='pt-10'>
         <button className='bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full'>Book your consultation now</button>
       </div>
-      <img className='absolute h-full bottom-0 right-0' src={image}/>
+      <img className='absolute h-full bottom-0 right-0' src={image} alt='main' />
     </div>
   );
 };
