@@ -1,4 +1,7 @@
 import React from 'react';
+import google from './google.svg'
+import linkedin from './linkedin.svg'
+import twitter from './twitter.svg'
 
 const ContactUs = () => {
   return (
@@ -21,12 +24,18 @@ const ContactUs = () => {
           <div>
             <div className='text-sm'>Follow us</div>
             <div className='flex'>
-              <div className='rounded-full p-4 m-2 bg-gray-500'></div>
-              <div className='rounded-full p-4 m-2 bg-gray-500'></div>
-              <div className='rounded-full p-4 m-2 bg-gray-500'></div>
+              <div className='rounded-full h-8 w-8 m-2'><img src={google} alt='Google +'/></div>
+              <div className='rounded-full h-8 w-8 m-2'><img src={linkedin} alt='LinkedIn'/></div>
+              <div className='rounded-full h-8 w-8 m-2'><img src={twitter} alt='Twitter'/></div>
             </div>
           </div>
           <div className='text-xs text-justify p-4 mx-10'>Copyright 2020 @Haya Abidi | 221b Baker Street | Suite 1106 | Blackpink in your area | 999-096-3975</div>
+          <div className='text-xs text-justify px-4 mx-10 flex items-end w-100 justify-end'>
+            <div>Made with <span role='img' aria-label='love'>❤️</span> by&nbsp;</div>
+            <div>
+              <a href='https://sdiot.io' rel='noreferrer noopener' target='_blank'><img className='h-3 mb-1' src='https://sdiot.io/static/media/sdiot-logo.6f56f3c3.svg' alt='sdiot' /></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
