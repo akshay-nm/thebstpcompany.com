@@ -54,7 +54,7 @@ const Pricing = () => {
               <img src={lgCat} className='object-scale-down h-full w-full' alt='too many cats' />
             </div>
             <div className='text-center rounded-lg bg-primary p-4'>
-              <div className='text-2xl'>Large</div>
+              <div className='text-2xl font-heading'>Large</div>
               <div>Articles per Month - 4</div>
               <div>Articles per Week - 1</div>
               <div>Words per article - 300</div>

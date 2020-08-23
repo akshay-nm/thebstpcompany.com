@@ -6,11 +6,11 @@ const ContactUs = () => {
       <div className='text-center text-5xl font-heading'>Contact Us</div>
       <div className='grid grid-cols-1 md:grid-cols-2 p-10 gap-20'>
         <div>
-          <input className='border-primary border-b-4 mb-3 bg-secondary w-full' placeholder='Name' type='text' id='name' />
-          <input className='border-primary border-b-4 mb-3 bg-secondary w-full' placeholder='E-mail' type='text' id='name' />
-          <input className='border-primary border-b-4 mb-3 bg-secondary w-full' placeholder='Phone' type='text' id='name' />
+          <input className='border-primary placeholder-primary border-b-4 mb-3 bg-secondary w-full' placeholder='Name' type='text' id='name' />
+          <input className='border-primary placeholder-primary border-b-4 mb-3 bg-secondary w-full' placeholder='E-mail' type='text' id='name' />
+          <input className='border-primary placeholder-primary border-b-4 mb-3 bg-secondary w-full' placeholder='Phone' type='text' id='name' />
           <div className='mb-3'>Your Inquiry</div>
-          <input className='border-primary border-b-4 mb-3 bg-secondary w-full' placeholder='' type='text' id='name' />
+          <input className='border-primary placeholder-primary border-b-4 mb-3 bg-secondary w-full' placeholder='' type='text' id='name' />
           <div className='text-right'>
             <button className='bg-primary text-secondary py-1 px-2 rounded'>Submit</button>
           </div>
