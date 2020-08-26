@@ -3,7 +3,7 @@ import image from './3.svg';
 
 const Home = () => {
   return (
-    <div className='w-full flex flex-col p-10 relative'>
+    <div className='w-full flex flex-col p-10 mt-40 relative'>
       <div className='text-5xl md:text-6xl font-heading'>Tell your story <br />the right way</div>
       <div className='w-full max-w-sm md:max-w-md'>Nisi nulla ut exercitation eu quis ex cillum et id. Id ea cupidatat elit commodo. Non eu qui nisi cillum nulla. Ad commodo do nostrud do. Duis Lorem ad ex ullamco id commodo culpa voluptate sunt non magna. Et enim dolor qui incididunt nulla voluptate nulla irure minim eu. Sint minim ad do non cupidatat tempor eu eu ea et qui.</div>
       <div className='pt-10'>

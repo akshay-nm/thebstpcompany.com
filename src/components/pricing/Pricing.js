@@ -6,7 +6,7 @@ import lgCat from './lg-cat.svg'
 
 const Pricing = () => {
   return (
-    <div className='py-10 bg-primary'>
+    <div className='px-16 py-32 bg-primary'>
       <div className='text-center text-5xl mb-5 font-heading'>Pricing</div>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 p-5'>
         <div className='flex items-center justify-center'>
