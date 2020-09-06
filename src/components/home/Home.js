@@ -9,7 +9,9 @@ const Home = () => {
       <div className='pt-10'>
         <button className='bg-button-primary hover:bg-button-dark text-primary lg:text-home-button font-bold py-2 px-4 rounded-full'>Book your consultation now</button>
       </div>
-      <img className='absolute h-full w-1/2 object-contain object-right-bottom bottom-0 right-0 hidden md:block' src={image} alt='main' />
+      <div className='absolute h-full w-1/2 bottom-0 right-0 hidden md:block'>
+      <img className='absolute h-full w-full object-contain object-right-bottom mt-5' src={image} alt='main' />
+      </div>
     </div>
   );
 };
